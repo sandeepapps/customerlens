@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartChain | Supply Chain Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: #0a2540;
+            color: white;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(10,37,64,0.8), rgba(10,37,64,0.8)), 
+                        url('https://images.unsplash.com/photo-1581090700227-1e37b190418e');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 80px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #00bcd4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0097a7;
+        }
+
+        section {
+            padding: 60px 80px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #0a2540;
+        }
+
+        .products {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background: white;
+            width: 300px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card h3 {
+            margin-bottom: 15px;
+            color: #0a2540;
+        }
+
+        .contact {
+            background: #0a2540;
+            color: white;
+            text-align: center;
+        }
+
+        .contact p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #081a2b;
+            color: white;
+        }
+
+        @media(max-width: 768px) {
+            .hero {
+                padding-left: 30px;
+                text-align: center;
+            }
+
+            section {
+                padding: 40px 20px;
+            }
+
+            header {
+                flex-direction: column;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SmartChain SCM</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Optimizing Your Supply Chain</h2>
+    <p>
+        We provide end-to-end Supply Chain Management solutions including
+        Warehouse Management, Transport Management, and Real-Time Analytics.
+    </p>
+    <a href="#products" class="btn">Explore Solutions</a>
+</section>
+
+<section id="products">
+    <h2 class="section-title">Our Products</h2>
+    <div class="products">
+        <div class="product-card">
+            <h3>Warehouse Management System</h3>
+            <p>
+                Optimize inventory tracking, picking, packing, and
+                real-time warehouse operations.
+            </p>
+        </div>
+
+        <div class="product-card">
+            <h3>Transport Management System</h3>
+            <p>
+                Plan routes efficiently, reduce logistics costs,
+                and track shipments in real-time.
+            </p>
+        </div>
+
+        <div class="product-card">
+            <h3>Supply Chain Analytics</h3>
+            <p>
+                Gain insights with AI-driven dashboards,
+                predictive forecasting, and reporting tools.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title" style="color:white;">Contact Us</h2>
+    <p>Email: contact@smartchain.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Location: Hyderabad, India</p>
+</section>
+
+<footer>
+    © 2026 SmartChain SCM | All Rights Reserved
+</footer>
+
+</body>
+</html>
