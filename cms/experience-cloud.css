@@ -1,0 +1,150 @@
+.ec-docs {
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+/* LEFT SIDEBAR */
+
+.ec-sidebar {
+    width: 330px;
+    min-width: 330px;
+    background: #f4f4f4;
+    padding: 28px 15px;
+    box-sizing: border-box;
+}
+
+.ec-sidebar-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.ec-search {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    height: 38px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.ec-search span {
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.ec-search input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* MENU */
+
+.ec-menu {
+    font-size: 14px;
+}
+
+.ec-menu-item {
+    padding: 10px 8px;
+    font-weight: 600;
+    background: #dceeff;
+    border-left: 4px solid #1689e8;
+}
+
+.ec-arrow {
+    margin-right: 8px;
+}
+
+.ec-submenu {
+    padding-left: 20px;
+}
+
+.ec-submenu-item {
+    padding: 8px 5px;
+    color: #333333;
+}
+
+.ec-submenu-item:hover {
+    background: #e8e8e8;
+    cursor: pointer;
+}
+
+/* RIGHT CONTENT */
+
+.ec-content {
+    flex: 1;
+    padding: 40px 70px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ec-breadcrumb {
+    color: #1676d2;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 42px;
+}
+
+.ec-breadcrumb span {
+    padding: 0 6px;
+}
+
+.ec-content h1 {
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #000000;
+}
+
+.ec-content h2 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 32px;
+    margin-bottom: 18px;
+}
+
+.ec-content p {
+    font-size: 16px;
+    line-height: 1.55;
+    color: #333333;
+}
+
+.ec-content li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.ec-edition-box {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 5px 0;
+}
+
+.ec-edition-box p {
+    margin: 0;
+    padding: 12px 8px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.ec-edition-box p:last-child {
+    border-bottom: none;
+}
+
+.ec-demo-box {
+    margin-top: 30px;
+    height: 120px;
+    background: #49c2d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
